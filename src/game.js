@@ -9,7 +9,7 @@ export class Game {
     DrawGridLines() {
         for(var r = 0; r!=20; r++) {
             for(var c=0; c!=10; c++) {
-                this.board.rect((40*i),(40*r),40,40)
+                this.board.rect((40*c),(40*r),40,40)
                 this.board.stroke();
             };
         }
