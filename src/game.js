@@ -1,5 +1,5 @@
-import Piece from "./components/piece";
-import Block from "./components/block";
+import Piece from "./components/piece.js";
+import Block from "./components/block.js";
 
 class Game {
     constructor() {
