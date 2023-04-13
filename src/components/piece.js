@@ -1,3 +1,4 @@
+import Block from "./block";
 class Piece {
     /**
      * 
@@ -8,3 +9,5 @@ class Piece {
 
     }
 }
+
+module.exports = Piece

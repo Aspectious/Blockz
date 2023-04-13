@@ -1,0 +1,16 @@
+body {
+}
+div {
+    margin:auto;
+    padding: auto;
+}
+h1 {
+    text-align: center;
+}
+canvas {
+    display: block;
+    margin: auto;
+    max-width: 500px;
+    min-width: 500px;
+    border:1px solid black;
+}
