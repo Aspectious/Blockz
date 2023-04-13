@@ -1,5 +1,5 @@
 import {Block} from "./block.js"
-class Piece {
+export class Piece {
     /**
      * 
      * @param {Array<Block>} BlockArray 

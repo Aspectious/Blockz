@@ -1,7 +1,7 @@
 import {Piece} from "./components/piece.js";
 import {Block} from "./components/block.js";
 
-class Game {
+export class Game {
     constructor() {
         this.board = document.getElementById("board").getContext("2d");
         this.DrawGridLines()
