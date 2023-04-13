@@ -9,5 +9,3 @@ export class Piece {
 
     }
 }
-
-module.exports = {Piece}

@@ -18,6 +18,3 @@ export class Game {
         const board = document.getElementById("board");
     }
 }
-
-
-module.exports = {Game};

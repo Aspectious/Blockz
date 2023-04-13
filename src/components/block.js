@@ -3,5 +3,3 @@ export class Block {
         this.color = color;
     }
 }
-
-module.exports = {Block};

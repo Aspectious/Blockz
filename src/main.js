@@ -6,4 +6,4 @@ export const Runtime = new Game();
 console.log("e")
 
 
-module.exports = {Runtime};
+export default {};
