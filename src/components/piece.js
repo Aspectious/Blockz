@@ -1,3 +1,4 @@
+import {Block} from "./block.js"
 class Piece {
     /**
      * 
@@ -9,4 +10,4 @@ class Piece {
     }
 }
 
-module.exports = Piece
+module.exports = {Piece}

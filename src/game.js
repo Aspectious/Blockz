@@ -1,5 +1,5 @@
-import Piece from "./components/piece.js";
-import Block from "./components/block.js";
+import {Piece} from "./components/piece.js";
+import {Block} from "./components/block.js";
 
 class Game {
     constructor() {
@@ -20,4 +20,4 @@ class Game {
 }
 
 
-module.exports = Game;
+module.exports = {Game};
