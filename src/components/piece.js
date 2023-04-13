@@ -1,4 +1,3 @@
-import Block from "./block.js";
 class Piece {
     /**
      * 
