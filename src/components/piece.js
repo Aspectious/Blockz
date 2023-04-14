@@ -8,7 +8,6 @@ export class Piece {
         if (typeof BlockArray != Array) throw new TypeError;
 
     }
-    static doCollisionCheck(Piece, Piece)
 }
 export const PieceDefaults = {
     "Line":     new Piece(),
