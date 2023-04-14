@@ -1,5 +1,14 @@
-body {
+:root {
+    --scheme-color-1:#00ffff; /* Line Piece */
+    --scheme-color-2:#ffff00; /* Square Piece */
+    --scheme-color-3:#800080; /* T Piece */
+    --scheme-color-4:#00ff00; /* S Piece */
+    --scheme-color-5:#ff0000; /* Z Piece */
+    --scheme-color-6:#0000ff; /* Inverse L Piece */
+    --scheme-color-7:#ff7100; /* L Piece */
+    --scheme-color-8:#7f7f7f; /* Leftover Piece */
 }
+
 div {
     margin:auto;
     padding: auto;

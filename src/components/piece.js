@@ -8,4 +8,20 @@ export class Piece {
         if (typeof BlockArray != Array) throw new TypeError;
 
     }
+    static doCollisionCheck(Piece, Piece)
+}
+export const PieceDefaults = {
+    "Line":     new Piece(),
+    "Square":   new Piece(),
+    "TBlock":   new Piece(),
+    "SBlock":   new Piece(),
+    "ZBlock":   new Piece(),
+    "!LPiece":  new Piece(),
+    "LPiece":   new Piece()
+};
+/**
+ * @param {Piece} Piece 
+ */
+export function drawPiece(Piece) {
+
 }

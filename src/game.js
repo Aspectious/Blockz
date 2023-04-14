@@ -7,6 +7,9 @@ export class Game {
         this.DrawGridLines()
         this.BlockList = new Array<Array>(20);
     }
+    Start() {
+        console.log("start");
+    }
     DrawGridLines() {
         for(var r = 0; r!=20; r++) {
             for(var c=0; c!=10; c++) {
