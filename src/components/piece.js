@@ -4,7 +4,6 @@ export class Piece {
      * @param {Array<Block>} BlockArray 
      */
     constructor(x,y,BlockArray) {
-        if (typeof BlockArray != Array) throw new TypeError;
 
     }
 }
