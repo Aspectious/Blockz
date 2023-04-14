@@ -11,7 +11,7 @@ export class Game {
         for(var r = 0; r!=20; r++) {
             for(var c=0; c!=10; c++) {
 
-                this.board.rect((20*c),(20*r),20,20)
+                this.board.rect((10*c),(10*r),10,10)
                 this.board.stroke();
             };
         }
